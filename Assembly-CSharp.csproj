@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0a32c498-9302-d343-43d7-d54c561ca4cf}</ProjectGuid>
+    <ProjectGuid>{5e8c9e60-edf2-d928-bc30-829ccb8b267e}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -252,14 +252,20 @@
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/cavas/Space_Bushido_Gaiden/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/cavas/Documents/Unity/Space Bushido Gaiden/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/cavas/Space_Bushido_Gaiden/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/cavas/Documents/Unity/Space Bushido Gaiden/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/cavas/Space_Bushido_Gaiden/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/cavas/Documents/Unity/Space Bushido Gaiden/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/cavas/Space_Bushido_Gaiden/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/cavas/Space_Bushido_Gaiden/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -609,131 +615,131 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{5bcb34b0-df97-de9d-b9a3-2c945c0b08fe}</Project>
+      <Project>{e81913e2-5fc7-f88b-3325-b137fa27f372}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{5f3c7f2b-d0ab-199c-54d9-9b10f046fd5a}</Project>
+      <Project>{f346a125-b875-ee43-6ad5-e74f969700d6}</Project>
       <Name>Unity.2D.Animation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.multiplayer-hlapi.Editor.csproj">
-      <Project>{19326783-8ddc-909b-b977-f6aa695f8b69}</Project>
+      <Project>{bae50fe1-8e1c-6529-9f09-fe19e14554f0}</Project>
       <Name>com.unity.multiplayer-hlapi.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{e182273f-6788-c00e-ed15-84368c7152d7}</Project>
+      <Project>{2db9b3a7-a3e1-eaf3-f433-ff9bda594707}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{1c6003a0-7342-f8bf-56ef-5e683ff29e5d}</Project>
+      <Project>{7f76216d-f2dd-cc2f-a9f9-c1b1277c5e2b}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.IK.Editor.csproj">
-      <Project>{1f5e9893-7696-ac5b-3002-41ded4c93768}</Project>
+      <Project>{7a5a7bf0-cb35-6b3c-ecbd-6dad2e5d4b2a}</Project>
       <Name>Unity.2D.IK.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
-      <Project>{b3f5215e-ea69-ed2d-e259-730813007136}</Project>
+      <Project>{2d75d265-4458-c3d7-9caa-8063d0839985}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{138cba5d-4239-fe7c-3bf0-015447fac070}</Project>
+      <Project>{d2360344-79d1-608e-4a5e-6cb68a24481a}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{298ce476-957d-b0e0-02b6-32bb4d2f3b4b}</Project>
+      <Project>{94ac164d-40d5-0390-5e12-1c6ab0ac73bf}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
-      <Project>{13e2218a-6dbe-1c11-9e0e-94f3612c1959}</Project>
+      <Project>{4bf6ceb8-5523-629d-8967-c6936bf409db}</Project>
       <Name>Unity.2D.Animation.Triangle.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="PsdPlugin.csproj">
-      <Project>{10655c11-b746-9c24-6234-151a6ffba11f}</Project>
+      <Project>{b24d831e-e992-b5f1-974d-17941b9eb4b7}</Project>
       <Name>PsdPlugin</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
-      <Project>{4b0a05a5-55a4-6138-ccff-04cec96a18ec}</Project>
+      <Project>{4960f079-841e-3249-e0ab-99a0896661fa}</Project>
       <Name>Unity.CollabProxy.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.multiplayer-weaver.Editor.csproj">
-      <Project>{c86b1e11-1cb5-6436-27b3-f309113adebc}</Project>
+      <Project>{afd6d54d-7337-2587-abd4-4c80b3318f8f}</Project>
       <Name>com.unity.multiplayer-weaver.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{e1d2b473-3776-f1a2-de17-8ab632ee3b2b}</Project>
+      <Project>{444eca0a-4796-b290-4564-bfea8e335080}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{2861d54e-68e7-70d1-005f-db03876bda0f}</Project>
+      <Project>{17422194-62d7-4507-7790-9e9a78e9989f}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{40c94cf6-303b-685a-61a5-63fef4f0e225}</Project>
+      <Project>{dcc74c55-239e-830a-aa5a-439021b1467c}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
-      <Project>{cbe1f792-fd6a-8fbc-85b9-2b41d8faca9a}</Project>
+      <Project>{bffa5812-5bd3-5eda-1ef4-f13be2c9f982}</Project>
       <Name>Unity.2D.Psdimporter.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{25fe3d85-1ff2-693c-b642-81cf3d3fd85d}</Project>
+      <Project>{bb62e8ca-aeb5-a4c0-eeaf-61eeb4f4acc7}</Project>
       <Name>Unity.InternalAPIEngineBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{f1345191-c247-2de1-9f5a-ce130cb832b9}</Project>
+      <Project>{09490322-e303-d75b-2245-53cf98949dfb}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{c94799d3-625c-0668-5575-b51c51bba4ac}</Project>
+      <Project>{0599802c-9358-d6a5-98a4-5c7081b3907a}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{4fe6df49-855f-20c2-5777-f736237c58cb}</Project>
+      <Project>{6196cc76-1da3-bab7-cef0-dd8ca5c9da73}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
-      <Project>{14ca26fb-d61f-1f42-527c-a5fddad48fa9}</Project>
+      <Project>{73440f0e-4e8f-7645-3fa7-dcf73e030433}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
-      <Project>{50dda3cb-f0e7-bd4c-ee1e-330a0030fd5c}</Project>
+      <Project>{a27fdff8-f291-a2a8-60f7-39131f9f9512}</Project>
       <Name>UnityEditor.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{e419d91f-a696-769e-d500-2fb89ef768db}</Project>
+      <Project>{47c2527b-d32b-8283-5185-0b54625144ea}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{9c90f1c0-5ac7-5cd3-d1f6-996bc156e4c9}</Project>
+      <Project>{32a42907-1fbb-268f-970b-c2f4b8ad87d5}</Project>
       <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{3c2ab88a-b88e-1278-02c8-599db8941e70}</Project>
+      <Project>{644d46db-3369-0476-c71f-a173feccc274}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{afde66cd-0f56-142a-5cbe-5ad254264fb4}</Project>
+      <Project>{5b95f42c-bc33-7f59-fa0c-76020c5aa936}</Project>
       <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
-      <Project>{62469b06-e72e-c40a-4016-8b968b37315f}</Project>
+      <Project>{0577e96c-223e-b28b-f957-80e81f34fb08}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
-      <Project>{82cff5d7-a3cf-b2ed-21f9-ae2cf3de7ca6}</Project>
+      <Project>{4d54e45d-7769-76ba-eeab-8563a2ef2d53}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{e0a5185a-ce01-fdee-e9ef-80be0214e152}</Project>
+      <Project>{d7a60acf-aca5-10fd-4e1f-ac38558f3175}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{12544ea0-86ba-d53b-a64b-ccd653ae26d3}</Project>
+      <Project>{89904bc8-9e81-ecb1-1d54-1573eaa25e5d}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.multiplayer-hlapi.Runtime.csproj">
-      <Project>{f371c876-382a-821c-1892-56c433e39ee6}</Project>
+      <Project>{afeb632c-eb7b-463a-f9a8-06d32754f422}</Project>
       <Name>com.unity.multiplayer-hlapi.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
