@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour {
 	public float startdashtime;
 	private int direction;
 
+	public float chargeTimer;
+
 	public CharacterController2D controller;
 	public Animator animator;
 
@@ -84,7 +86,22 @@ public class PlayerMovement : MonoBehaviour {
 			textStance.GetComponent<TextMesh>().text = "Right Stance";
 			playerStance = stanceChoice.Right;
 		}
+		if (Input.GetButton("Fire5"))
+		{
+			chargeTimer+=Time.deltaTime;
 
+		}
+		if (Input.GetButtonUp("Fire5") && (chargeTimer>2))
+		{
+
+			GetComponent<Rigidbody2D>().velocity = new Vector3(90,5,0);
+			animator.SetBool("IsJumping", true);
+			chargeTimer=0;
+		}
+		if (Input.GetButtonUp("Fire5") && (chargeTimer<2))
+		{
+			chargeTimer=0;
+		}
 	}
 
 	public void OnLanding ()
